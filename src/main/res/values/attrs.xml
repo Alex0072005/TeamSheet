@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FootballFieldView">
+        <attr name="orientation" format="enum">
+            <enum name="vertical" value="0" />
+            <enum name="horizontal" value="1" />
+            <enum name="rotatable" value="2" />
+        </attr>
+        <attr name="horizontalBackground" format="reference"/>
+        <attr name="verticalBackground" format="reference"/>
+    </declare-styleable>
+</resources>

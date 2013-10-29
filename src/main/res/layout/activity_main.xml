@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.teamsheet.component"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@android:color/white" >
+       
+    <com.teamsheet.component.FootballFieldView
+        android:id="@+id/football_field"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_gravity="center"
+	    custom:orientation="rotatable"
+	    custom:horizontalBackground="@drawable/football_field_horizontal"
+	    custom:verticalBackground="@drawable/football_field_vertical"
+        />
+    
+</FrameLayout>
